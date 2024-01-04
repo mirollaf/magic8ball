@@ -18,7 +18,7 @@ function shakeMagic8Ball() {
     switch (randomNumber) {
         case 0:
             answer = "YUP";
-            image = "yes-image.jpg" ;
+            image = "yes.jpg" ;
             color = "text-success";
             break;
         case 1:
@@ -27,33 +27,33 @@ function shakeMagic8Ball() {
             color = "text-danger";
             break;
         case 2:
-            answer = "Ask again later";
-            image = "later-image.jpg" //change this!!;
+            answer = "I'M BUSY COME BACK LATER";
+            image = "notice_im_busy.jpg" ;
             color = "text-secondary";
             break;
         case 3:
-            answer = "Maybe";
-            image = "maybe-image.jpg";//change this!!;
+            answer = "MAYBE";
+            image = "maybe.jpg",
             color = "text-warning";
             break;
         case 4:
-            answer = "Cannot predict now";
-            image = "cannot-predict-image.jpg";//change this!!;
+            answer = "I CANNOT PREDICT THAT RIGHT NOW";
+            image = "cant predict.jpg";
             color = "text-muted";
             break;
         case 5:
             answer = "HA YOU WISH";
-            image = "dont-count-on-it-image.jpg";//change this!!;
+            image = "thats-some-funny.gif";
             color = "text-danger";
             break;
         case 6:
-            answer = "Most likely";
-            image = "most-likely-image.jpg";//change this!!;
+            answer = "PROBABLY PRETTY LIKELY";
+            image = "very-likely-story.jpg";
             color = "text-success";
             break;
         case 7:
-            answer = "Outlook not so good";
-            image = "outlook-not-good-image.jpg";//change this!!;
+            answer = "LOOKING ROUGH, DREAM BIG PRINCESS";
+            image = "DreamonprincessFeatured.avif";//change this!!;
             color = "text-danger";
             break;
         default:
